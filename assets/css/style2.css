@@ -8,16 +8,20 @@ font-family: 'Poppins', sans-serif;
 }
 
 body{
-background-color: #f2f2f2;
+background-image: url(/assets/imagem/2498904-fundo-azul-abstrato-fluido-vetor.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 900px;
 }
 
 .content-center{ 
 width: 100%;
-max-width: 300px;
+max-width: 500px;
+height: 500px;
 margin: auto;
 padding: 20px;
 background-color: #fff;
-border-radius: 15px;
+border-radius: 50%;
 box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.30);
 }
 .content-center img{
@@ -28,7 +32,7 @@ border-radius: 5px;
 .content-center form{
 margin: 20px;
 }
-
+    
 .content-center input, .content-center button{
 width: 100%;
 padding: 10px 5px;
@@ -103,4 +107,6 @@ footer{
 
 #text-center{
     text-align: center;
+    margin-top: 82px;
+    
 }
